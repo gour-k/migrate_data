@@ -17,7 +17,7 @@ This project automates the process of setting up a PostgreSQL database and impor
 ## Installation and Setup
 1. **Install PostgreSQL and Python Package:**
    - Run `install_requirements.sh` to install PostgreSQL and set up the database, user and install python packages.
-   ```bash
+   ```sh
    sudo chmod +x install_requirements.sh
    ./install_requirements.sh
    ```
@@ -25,6 +25,6 @@ This project automates the process of setting up a PostgreSQL database and impor
 ## Usage
 1. **Run the Python Script:**
    - Execute `save_data_postgre.py` to import the data from `state_district.xlsx` into the PostgreSQL database.
-   ```bash
+   ```sh
    python save_data_postgre.py
    ```
